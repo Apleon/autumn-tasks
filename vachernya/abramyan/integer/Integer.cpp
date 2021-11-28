@@ -34,13 +34,114 @@ void integer8(int a) {
 }
 
 void integer9(int a) {
-	std::cout << "Первая цифра числа:" << a / 100;
+	int a1 = a / 100;
+	std::cout << "Первая цифра числа:" << a1;
 }
 
 void integer10(int a) {
-	std::cout << "Последняя цифра числа:" << a % 10 << "Средняя цифра числа:" << (a % 100) / 10;
+	int a1 = a / 100;
+	int a2 = (a % 100) / 10;
+	int a3 = a % 10;
+	std::cout << "Последняя цифра числа:" << a3 << "Средняя цифра числа:" << a2;
 }
 
-void integer10(int a) {
-	std::cout << "Последняя цифра числа:" << a % 10 << "Средняя цифра числа:" << (a % 100) / 10;
+void integer11(int a) {
+	int a1 = a / 100;
+	int a2 = (a % 100) / 10;
+	int a3 = a % 10;
+	std::cout << "Сумма цифр числа:" << a1+a2+a3;
+}
+
+void integer12(int a) {
+	int a1 = a / 100;
+	int a2 = (a % 100) / 10;
+	int a3 = a % 10;
+	std::cout << "Перевернутое число:" << a1 + a2 * 10 + a3 * 100;
+}
+
+void integer13(int a) {
+	int a1 = a / 100;
+	int a2 = (a % 100) / 10;
+	int a3 = a % 10;
+	std::cout << "Измененное число:" << a2 * 100 + a3 * 10 + a1;
+}
+
+void integer14(int a) {
+	int a1 = a / 100;
+	int a2 = (a % 100) / 10;
+	int a3 = a % 10;
+	std::cout << "Измененное число:" << a3 * 100 + a1 * 10 + a2;
+}
+
+void integer15(int a) {
+	int a1 = a / 100;
+	int a2 = (a % 100) / 10;
+	int a3 = a % 10;
+	std::cout << "Измененное число:" << a2 * 100 + a1 * 10 + a3;
+}
+
+void integer16(int a) {
+	int a1 = a / 100;
+	int a2 = (a % 100) / 10;
+	int a3 = a % 10;
+	std::cout << "Измененное число:" << a1 * 100 + a3 * 10 + a2;
+}
+
+void integer17(int a) {
+	std::cout << "Разряж сотен:" << (a/100)%10;
+}
+
+void integer18(int a) {
+	std::cout << "Разряж тысяч:" << (a / 1000) % 10;
+}
+
+void integer19(int n) {
+	std::cout << "Полных минут:" << n / 60;
+}
+
+void integer20(int n) {
+	std::cout << "Полных часов:" << n / 3600;
+}
+
+void integer21(int n) {
+	std::cout << "Секунд с начала минуты:" << n % 60;
+}
+
+void integer22(int n) {
+	std::cout << "Секунд с начала часа:" << n % 3600;
+}
+
+void integer23(int n) {
+	std::cout << "Минут с начала часа:" << (n / 60) % 60;
+}
+
+void integer24(int k) {
+	std::cout << "Номер недели:" << (k+1) % 7 ;
+}
+
+void integer25(int k) {
+	std::cout << "Номер недели:" << (k + 4) % 7;
+}
+
+void integer26(int k) {
+	std::cout << "Номер недели:" << ((k + 2 - 1) % 7) + 1;
+}
+
+void integer27(int k) {
+	std::cout << "Номер недели:" << ((k + 6 - 1 ) % 7) + 1;
+}
+
+void integer28(int k, int n) {
+	std::cout << "Номер недели:" << ((k + n - 1) % 7) + 1;
+}
+
+void integer29(int a, int b, int c) {
+	int p = a * b;
+	int ac = a / c;
+	int ab = b / c;
+	std::cout << "Количество квадратов:" << ab*ac <<"Незанятая территория:"<< p - (ab*ac*c*c);
+}
+
+void integer30(int g) {
+	std::cout << "Столетие:" << (g - 1) / 100 + 1;
 }
