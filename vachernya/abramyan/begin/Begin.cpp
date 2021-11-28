@@ -1,115 +1,115 @@
 #include<iostream>
 #include<math.h>
 
-void begin1(double a) {
-	std::cout << "Ïåðèìåòð:" << 4 * a;
+void begin_task_1(double a) {
+	std::cout << "ÐŸÐµÑ€Ð¸Ð¼ÐµÑ‚Ñ€:" << 4 * a;
 }
 
-void begin2(double a) {
-	std::cout << "Ïëîùàäü:" << a * a;
+void begin_task_2(double a) {
+	std::cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ:" << a * a;
 }
 
-void begin3(double a, double b) {
-	std::cout << "Ïëîùàäü:" << a * b << "\nÏåðèìåòð:" << 2 * (a + b);
+void begin_task_3(double a, double b) {
+	std::cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ:" << a * b << "\nÐŸÐµÑ€Ð¸Ð¼ÐµÑ‚Ñ€:" << 2 * (a + b);
 }
 
-void begin4(double d) {
-	std::cout << "Äëèííà îêðóæíîñòè:" << d * 3.14;
+void begin_task_4(double d) {
+	std::cout << "Ð”Ð»Ð¸Ð½Ð½Ð° Ð¾ÐºÑ€ÑƒÐ¶Ð½Ð¾ÑÑ‚Ð¸:" << d * 3.14;
 }
 
-void begin5(double a) {
-	std::cout << "Îáüåì êóáà:" << pow(a, 3) << "\nÏëîùàäü ïîâåðõíîñòè:" << 2 * a * a;
+void begin_task_5(double a) {
+	std::cout << "ÐžÐ±ÑŒÐµÐ¼ ÐºÑƒÐ±Ð°:" << pow(a, 3) << "\nÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ Ð¿Ð¾Ð²ÐµÑ€Ñ…Ð½Ð¾ÑÑ‚Ð¸:" << 2 * a * a;
 }
 
-void begin6(double a, double c, double b) {
-	std::cout << "Îáüåì:" << a * c * b << "\nÏëîùàäü ïîâåðõíîñòè:" << 2 * (a * b + b * c + c * a);
+void begin_task_6(double a, double c, double b) {
+	std::cout << "ÐžÐ±ÑŒÐµÐ¼:" << a * c * b << "\nÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ Ð¿Ð¾Ð²ÐµÑ€Ñ…Ð½Ð¾ÑÑ‚Ð¸:" << 2 * (a * b + b * c + c * a);
 }
 
-void begin7(double r) {
-	std::cout << " Ïëîùàäü êðóãà:" << 3.14 * r * r << "\nÄëèííà îêðóæíîñòè:" << 2 * 3.14 * r;
+void begin_task_7(double r) {
+	std::cout << " ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ ÐºÑ€ÑƒÐ³Ð°:" << 3.14 * r * r << "\nÐ”Ð»Ð¸Ð½Ð½Ð° Ð¾ÐºÑ€ÑƒÐ¶Ð½Ð¾ÑÑ‚Ð¸:" << 2 * 3.14 * r;
 }
 
-void begin8(double a, double b) {
-	std::cout << "Ñðåäíåå àðèôìåòè÷åñêîå:" << (a + b) / 2;
+void begin_task_8(double a, double b) {
+	std::cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð°Ñ€Ð¸Ñ„Ð¼ÐµÑ‚Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ:" << (a + b) / 2;
 }
 
-void begin9(double a, double b) {
-	std::cout << "Ñðåäíåå ãåîìåòðè÷åñêîå:" << pow(a + b, 2);
+void begin_task_9(double a, double b) {
+	std::cout << "Ð¡Ñ€ÐµÐ´Ð½ÐµÐµ Ð³ÐµÐ¾Ð¼ÐµÑ‚Ñ€Ð¸Ñ‡ÐµÑÐºÐ¾Ðµ:" << pow(a + b, 2);
 }
 
-void begin10(double a, double b) {
+void begin_task_10(double a, double b) {
 	double a2 = a * a;
 	double b2 = b * b;
-	std::cout << "Ñóììà:" << a2 + b2 << "\nÐàçíîñòü:" << a2 - b2 << "\nÏðîèçâåäåíèå:" << a2 * b2 << "\n×àñòíîå:" << a2 / b2;
+	std::cout << "Ð¡ÑƒÐ¼Ð¼Ð°:" << a2 + b2 << "\nÐ Ð°Ð·Ð½Ð¾ÑÑ‚ÑŒ:" << a2 - b2 << "\nÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ:" << a2 * b2 << "\nÐ§Ð°ÑÑ‚Ð½Ð¾Ðµ:" << a2 / b2;
 }
 
-void begin11(double a, double b) {
+void begin_task_11(double a, double b) {
 	double am = abs(a);
 	double bm = abs(b);
-	std::cout << "Ñóììà:" << am + bm << "\nÐàçíîñòü:" << am - bm << "\nÏðîèçâåäåíèå:" << am * bm << "\n×àñòíîå:" << am / bm;
+	std::cout << "Ð¡ÑƒÐ¼Ð¼Ð°:" << am + bm << "\nÐ Ð°Ð·Ð½Ð¾ÑÑ‚ÑŒ:" << am - bm << "\nÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ:" << am * bm << "\nÐ§Ð°ÑÑ‚Ð½Ð¾Ðµ:" << am / bm;
 }
 
-void begin12(double a, double b) {
+void begin_task_12(double a, double b) {
 	double c = sqrt(a * a + b * b);
-	std::cout << "Ãèïîòåíóçà ðàâíà:" << c << "\nÏåðèìåòð:" << a + b + c;
+	std::cout << "Ð“Ð¸Ð¿Ð¾Ñ‚ÐµÐ½ÑƒÐ·Ð° Ñ€Ð°Ð²Ð½Ð°:" << c << "\nÐŸÐµÑ€Ð¸Ð¼ÐµÑ‚Ñ€:" << a + b + c;
 }
 
-void begin13(double r1, double r2) {
+void begin_task_13(double r1, double r2) {
 	double s1 = r1 * r1 * 3.14;
 	double s2 = r2 * r2 * 3.14;
-	std::cout << "Ïëîùàäü ïåðâîãî êðóãà:" << s1 << "\nÏëîùàäü âòîðîãî êóðãà:" << s2 << "\nÏëîùàü êîëüöà:" << s1 - s2;
+	std::cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ Ð¿ÐµÑ€Ð²Ð¾Ð³Ð¾ ÐºÑ€ÑƒÐ³Ð°:" << s1 << "\nÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ Ð²Ñ‚Ð¾Ñ€Ð¾Ð³Ð¾ ÐºÑƒÑ€Ð³Ð°:" << s2 << "\nÐŸÐ»Ð¾Ñ‰Ð°ÑŒ ÐºÐ¾Ð»ÑŒÑ†Ð°:" << s1 - s2;
 }
 
-void begin14(double l) {
+void begin_task_14(double l) {
 	double r = l / (2 * 3.14);
 	double s = 3.14 * r * r;
-	std::cout << "Ðàäèóñ:" << r << "\nÏëîùàäü :" << s;
+	std::cout << "Ð Ð°Ð´Ð¸ÑƒÑ:" << r << "\nÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ :" << s;
 }
 
-void begin15(double s) {
+void begin_task_15(double s) {
 	double d = sqrt(s / (3.14 * 4));
 	double l = d / 3.14;
-	std::cout << "Äèàìåòð:" << d << "\nÄëèííà îêðóæíîñòè:" << l;
+	std::cout << "Ð”Ð¸Ð°Ð¼ÐµÑ‚Ñ€:" << d << "\nÐ”Ð»Ð¸Ð½Ð½Ð° Ð¾ÐºÑ€ÑƒÐ¶Ð½Ð¾ÑÑ‚Ð¸:" << l;
 }
 
-void begin16(double x1, double x2) {
-	std::cout << "Ðàññòîÿíèå:" << abs(x1 - x2);
+void begin_task_16(double x1, double x2) {
+	std::cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ:" << abs(x1 - x2);
 }
 
-void begin17(double s) {
+void begin_task_17(double s) {
 	double d = sqrt(s / (3.14 * 4));
 	double l = d / 3.14;
-	std::cout << "Äèàìåòð:" << d << "\nÄëèííà îêðóæíîñòè:" << l;
+	std::cout << "Ð”Ð¸Ð°Ð¼ÐµÑ‚Ñ€:" << d << "\nÐ”Ð»Ð¸Ð½Ð½Ð° Ð¾ÐºÑ€ÑƒÐ¶Ð½Ð¾ÑÑ‚Ð¸:" << l;
 }
 
-void begin18(double a, double b, double c) {
-	std::cout << "Ïðîèçâåäåíèå îòðåçêîâ:" << abs(a - c) * abs(c - b);
+void begin_task_18(double a, double b, double c) {
+	std::cout << "ÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ Ð¾Ñ‚Ñ€ÐµÐ·ÐºÐ¾Ð²:" << abs(a - c) * abs(c - b);
 }
 
-void begin19(double x1, double y1, double x2, double y2) {
-	std::cout << "Ïëîùàäü ïðÿìîóãîëüíèêà:" << abs(x1 - x2) * abs(y1 - y1) << "\nÏåðèìåòð ïðÿìîóãîëüíèêà:" << 2 * (abs(x1 - x2) + abs(y1 - y1));
+void begin_task_19(double x1, double y1, double x2, double y2) {
+	std::cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ Ð¿Ñ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°:" << abs(x1 - x2) * abs(y1 - y1) << "\nÐŸÐµÑ€Ð¸Ð¼ÐµÑ‚Ñ€ Ð¿Ñ€ÑÐ¼Ð¾ÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°:" << 2 * (abs(x1 - x2) + abs(y1 - y1));
 }
 
-void begin20(double x1, double y1, double x2, double y2) {
-	std::cout << "Ðàññòîÿíèå ìåæäó òî÷êàìè:" << sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) + (y2 - y1));
+void begin_task_20(double x1, double y1, double x2, double y2) {
+	std::cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð¼ÐµÐ¶Ð´Ñƒ Ñ‚Ð¾Ñ‡ÐºÐ°Ð¼Ð¸:" << sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) + (y2 - y1));
 }
 
-void begin21(double x1, double y1, double x2, double y2, double x3, double y3) {
+void begin_task_21(double x1, double y1, double x2, double y2, double x3, double y3) {
 	double a = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) + (y2 - y1));
 	double b = sqrt((x3 - x1) * (x3 - x1) + (y3 - y1) + (y3 - y1));
 	double c = sqrt((x2 - x3) * (x2 - x3) + (y2 - y3) + (y2 - y3));
 	double p = (a + b + c) / 2;
-	std::cout << "Ïëîùàäü òðåóãîëüíèêà:" << sqrt(p * (p - a) * (p - b) * (p - c));
+	std::cout << "ÐŸÐ»Ð¾Ñ‰Ð°Ð´ÑŒ Ñ‚Ñ€ÐµÑƒÐ³Ð¾Ð»ÑŒÐ½Ð¸ÐºÐ°:" << sqrt(p * (p - a) * (p - b) * (p - c));
 }
 
-void begin22(double a, double b) {
+void begin_task_22(double a, double b) {
 	double c = a;
 	a = b;
 	b = c;
 	std::cout << "A:" << a << "\n B:" << b;
 }
 
-void begin23(double a, double b, double c) {
+void begin_task_23(double a, double b, double c) {
 	double i = a;
 	a = c;
 	c = b;
@@ -117,7 +117,7 @@ void begin23(double a, double b, double c) {
 	std::cout << "A:" << a << "\n B:" << b << "\n C:" << c;
 }
 
-void begin24(double a, double b, double c) {
+void begin_task_24(double a, double b, double c) {
 	double i = a;
 	a = b;
 	b = c;
@@ -125,15 +125,15 @@ void begin24(double a, double b, double c) {
 	std::cout << "A:" << a << "\n B:" << b << "\n C:" << c;
 }
 
-void begin25(double x) {
+void begin_task_25(double x) {
 	std::cout << "Y:" << 3 * pow(x, 6) - 6 * pow(x, 2) - 7;
 }
 
-void begin26(double x) {
+void begin_task_26(double x) {
 	std::cout << "Y:" << 4 * pow(x - 3, 6) - 7 * pow(x - 3, 3) + 2;
 }
 
-void begin27(double a) {
+void begin_task_27(double a) {
 	double aa = a * a;
 	std::cout << "A^2:" << aa;
 	aa = aa * aa;
@@ -142,7 +142,7 @@ void begin27(double a) {
 	std::cout << "A^8:" << aa;
 }
 
-void begin28(double a) {
+void begin_task_28(double a) {
 	double aa = a * a;
 	double aaa = aa * a;
 	std::cout << "A^2:" << aa;
@@ -155,57 +155,57 @@ void begin28(double a) {
 	std::cout << "A^15:" << aa;
 }
 
-void begin29(double a) {
-	std::cout << " Ãðàäóñû:" << a * 180 / 3.14;
+void begin_task_29(double a) {
+	std::cout << " Ð“Ñ€Ð°Ð´ÑƒÑÑ‹:" << a * 180 / 3.14;
 }
 
-void begin30(double a) {
-	std::cout << " Ðàäèàíû:" << a * 3.14 / 180;
+void begin_task_30(double a) {
+	std::cout << " Ð Ð°Ð´Ð¸Ð°Ð½Ñ‹:" << a * 3.14 / 180;
 }
 
-void begin31(double tf) {
-	std::cout << " Ãðàäóñû Öåëüñèÿ:" << (tf - 32) * 5 / 9.0;
+void begin_task_31(double tf) {
+	std::cout << " Ð“Ñ€Ð°Ð´ÑƒÑÑ‹ Ð¦ÐµÐ»ÑŒÑÐ¸Ñ:" << (tf - 32) * 5 / 9.0;
 }
 
-void begin32(double tc) {
-	std::cout << " Ãðàäóñû Öåëüñèÿ:" << tc * 9 / 5 + 32;
+void begin_task_32(double tc) {
+	std::cout << " Ð“Ñ€Ð°Ð´ÑƒÑÑ‹ Ð¦ÐµÐ»ÑŒÑÐ¸Ñ:" << tc * 9 / 5 + 32;
 }
 
-void begin33(double x, double a, double y) {
+void begin_task_33(double x, double a, double y) {
 	double x1 = a / x;
 
-	std::cout << " Îäèí êèëîãðàìì êîíôåò ñòîèò:" << x1 << "\nÊèëîãðàìì Y êîíôåò ñòîèò:" << y * x1;
+	std::cout << " ÐžÐ´Ð¸Ð½ ÐºÐ¸Ð»Ð¾Ð³Ñ€Ð°Ð¼Ð¼ ÐºÐ¾Ð½Ñ„ÐµÑ‚ ÑÑ‚Ð¾Ð¸Ñ‚:" << x1 << "\nÐšÐ¸Ð»Ð¾Ð³Ñ€Ð°Ð¼Ð¼ Y ÐºÐ¾Ð½Ñ„ÐµÑ‚ ÑÑ‚Ð¾Ð¸Ñ‚:" << y * x1;
 }
 
-void begin34(double x, double a, double y, double b) {
+void begin_task_34(double x, double a, double y, double b) {
 	double x1 = a / x;
 	double y1 = b / y;
-	std::cout << " Îäèí êèëîãðàìì øîêîëàäíûõ êîíôåò ñòîèò:" << x1 << "\nÎäèí êèëîãðàìì øîêîëàäíûõ êîíôåò ñòîèò:" << y1 << "\nÐàçíèöà â ñòîéìîñòè ðàâíà:" << abs(x1 - y1);
+	std::cout << " ÐžÐ´Ð¸Ð½ ÐºÐ¸Ð»Ð¾Ð³Ñ€Ð°Ð¼Ð¼ ÑˆÐ¾ÐºÐ¾Ð»Ð°Ð´Ð½Ñ‹Ñ… ÐºÐ¾Ð½Ñ„ÐµÑ‚ ÑÑ‚Ð¾Ð¸Ñ‚:" << x1 << "\nÐžÐ´Ð¸Ð½ ÐºÐ¸Ð»Ð¾Ð³Ñ€Ð°Ð¼Ð¼ ÑˆÐ¾ÐºÐ¾Ð»Ð°Ð´Ð½Ñ‹Ñ… ÐºÐ¾Ð½Ñ„ÐµÑ‚ ÑÑ‚Ð¾Ð¸Ñ‚:" << y1 << "\nÐ Ð°Ð·Ð½Ð¸Ñ†Ð° Ð² ÑÑ‚Ð¾Ð¹Ð¼Ð¾ÑÑ‚Ð¸ Ñ€Ð°Ð²Ð½Ð°:" << abs(x1 - y1);
 }
 
-void begin35(double v, double u, double t1, double t2) {
-	std::cout << "Ëîäêà ïðîòèâ òå÷åíèÿ ïðîøëà ðàññòîÿíèå ðàâíîå:" << (v - u) * t1 << "\nëîäêà ïî òå÷åíèÿ ïðîøëà ðàññòîÿíèå ðàâíîå" << (v + u) * t2;
+void begin_task_35(double v, double u, double t1, double t2) {
+	std::cout << "Ð›Ð¾Ð´ÐºÐ° Ð¿Ñ€Ð¾Ñ‚Ð¸Ð² Ñ‚ÐµÑ‡ÐµÐ½Ð¸Ñ Ð¿Ñ€Ð¾ÑˆÐ»Ð° Ñ€Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ñ€Ð°Ð²Ð½Ð¾Ðµ:" << (v - u) * t1 << "\nÐ»Ð¾Ð´ÐºÐ° Ð¿Ð¾ Ñ‚ÐµÑ‡ÐµÐ½Ð¸Ñ Ð¿Ñ€Ð¾ÑˆÐ»Ð° Ñ€Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ñ€Ð°Ð²Ð½Ð¾Ðµ" << (v + u) * t2;
 }
 
-void begin36(double v1, double v2, double t, double s) {
-	std::cout << "Ðàññòîÿíèå ìåæäó ìàøèíàìè ïîñëå T âðåìåíè ðàâíî:" << (v1 + v2) * t + s;
+void begin_task_36(double v1, double v2, double t, double s) {
+	std::cout << "Ð Ð°ÑÑÑ‚Ð¾ÑÐ½Ð¸Ðµ Ð¼ÐµÐ¶Ð´Ñƒ Ð¼Ð°ÑˆÐ¸Ð½Ð°Ð¼Ð¸ Ð¿Ð¾ÑÐ»Ðµ T Ð²Ñ€ÐµÐ¼ÐµÐ½Ð¸ Ñ€Ð°Ð²Ð½Ð¾:" << (v1 + v2) * t + s;
 }
 
-void begin37(double a, double b) {
-	std::cout << "X ðàâíî:" << (-1) * b / a;
+void begin_task_37(double a, double b) {
+	std::cout << "X Ñ€Ð°Ð²Ð½Ð¾:" << (-1) * b / a;
 }
 
-void begin38(double a, double b, double c) {
+void begin_task_38(double a, double b, double c) {
 	double d = b * b - 4 * a * c;
-	std::cout << "X1 ðàâíî:" << (-1) * b - pow(d, 0.5) / (2 * a) << "\nX2 ðàâíî:" << (-1) * b + pow(d, 0.5) / (2 * a);
+	std::cout << "X1 Ñ€Ð°Ð²Ð½Ð¾:" << (-1) * b - pow(d, 0.5) / (2 * a) << "\nX2 Ñ€Ð°Ð²Ð½Ð¾:" << (-1) * b + pow(d, 0.5) / (2 * a);
 }
 
-void begin39(double a, double b, double c) {
+void begin_task_39(double a, double b, double c) {
 	double d = b * b - 4 * a * c;
-	std::cout << "X1 ðàâíî:" << (-1) * b - pow(d, 0.5) / (2 * a) << "\nX2 ðàâíî:" << (-1) * b + pow(d, 0.5) / (2 * a);
+	std::cout << "X1 Ñ€Ð°Ð²Ð½Ð¾:" << (-1) * b - pow(d, 0.5) / (2 * a) << "\nX2 Ñ€Ð°Ð²Ð½Ð¾:" << (-1) * b + pow(d, 0.5) / (2 * a);
 }
 
-void begin40(double a1, double a2, double b1, double b2, double c1, double c2) {
+void begin_task_40(double a1, double a2, double b1, double b2, double c1, double c2) {
 	double d = a1 * b2 - b1 * a2;
-	std::cout << "X ðàâíî:" << (c1 * b2 - c2 * b2) / d << "\nY ðàâíî:" << (a1 * c2 - a2 * c1) / d;
+	std::cout << "X Ñ€Ð°Ð²Ð½Ð¾:" << (c1 * b2 - c2 * b2) / d << "\nY Ñ€Ð°Ð²Ð½Ð¾:" << (a1 * c2 - a2 * c1) / d;
 }

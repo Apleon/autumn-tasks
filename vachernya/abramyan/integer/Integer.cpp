@@ -1,147 +1,147 @@
 #include<iostream>
 #include<math.h>
 
-void integer1(int l) {
-	std::cout << "Ìåòðû:" << l / 100;
+void integer_task_1(int l) {
+	std::cout << "ÐœÐµÑ‚Ñ€Ñ‹:" << l / 100;
 }
 
-void integer2(int m) {
-	std::cout << "Òîííû:" << m / 1000;
+void integer_task_2(int m) {
+	std::cout << "Ð¢Ð¾Ð½Ð½Ñ‹:" << m / 1000;
 }
 
-void integer3(int b) {
+void integer_task_3(int b) {
 	std::cout << "Kilobyte:" << b / 1024;
 }
 
-void integer4(int a, int b) {
-	std::cout << "Êîëè÷åñòâî ðàçðåìåííûõ îòðåçêîì äëèííû B íà îòðåçêå äëèííû A:" << a / b;
+void integer_task_4(int a, int b) {
+	std::cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ Ñ€Ð°Ð·Ñ€ÐµÐ¼ÐµÐ½Ð½Ñ‹Ñ… Ð¾Ñ‚Ñ€ÐµÐ·ÐºÐ¾Ð¼ Ð´Ð»Ð¸Ð½Ð½Ñ‹ B Ð½Ð° Ð¾Ñ‚Ñ€ÐµÐ·ÐºÐµ Ð´Ð»Ð¸Ð½Ð½Ñ‹ A:" << a / b;
 }
 
-void integer5(int a, int b) {
-	std::cout << "Íåçàíÿòûé ó÷àñòî íà îòðåçêå À:" << a % b;
+void integer_task_5(int a, int b) {
+	std::cout << "ÐÐµÐ·Ð°Ð½ÑÑ‚Ñ‹Ð¹ ÑƒÑ‡Ð°ÑÑ‚Ð¾ Ð½Ð° Ð¾Ñ‚Ñ€ÐµÐ·ÐºÐµ Ð:" << a % b;
 }
 
-void integer6(int a) {
-	std::cout << "Äåñÿòêè:" << a / 10 << "\nÅäèíèöû:" << a % 10;
+void integer_task_6(int a) {
+	std::cout << "Ð”ÐµÑÑÑ‚ÐºÐ¸:" << a / 10 << "\nÐ•Ð´Ð¸Ð½Ð¸Ñ†Ñ‹:" << a % 10;
 }
 
-void integer7(int a) {
-	std::cout << "Ñóììà öèôð:" << (a / 10) + (a % 10) << "\nÏðîèçâåäåíèå öèôð:" << (a / 10) * (a % 10);
+void integer_task_7(int a) {
+	std::cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ñ†Ð¸Ñ„Ñ€:" << (a / 10) + (a % 10) << "\nÐŸÑ€Ð¾Ð¸Ð·Ð²ÐµÐ´ÐµÐ½Ð¸Ðµ Ñ†Ð¸Ñ„Ñ€:" << (a / 10) * (a % 10);
 }
 
-void integer8(int a) {
-	std::cout << "Ïåðåñòàâëåííîå ÷èñëî:" << (a / 10) + (a % 10) * 10;
+void integer_task_8(int a) {
+	std::cout << "ÐŸÐµÑ€ÐµÑÑ‚Ð°Ð²Ð»ÐµÐ½Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:" << (a / 10) + (a % 10) * 10;
 }
 
-void integer9(int a) {
+void integer_task_9(int a) {
 	int a1 = a / 100;
-	std::cout << "Ïåðâàÿ öèôðà ÷èñëà:" << a1;
+	std::cout << "ÐŸÐµÑ€Ð²Ð°Ñ Ñ†Ð¸Ñ„Ñ€Ð° Ñ‡Ð¸ÑÐ»Ð°:" << a1;
 }
 
-void integer10(int a) {
-	int a1 = a / 100;
-	int a2 = (a % 100) / 10;
-	int a3 = a % 10;
-	std::cout << "Ïîñëåäíÿÿ öèôðà ÷èñëà:" << a3 << "Ñðåäíÿÿ öèôðà ÷èñëà:" << a2;
-}
-
-void integer11(int a) {
+void integer_task_10(int a) {
 	int a1 = a / 100;
 	int a2 = (a % 100) / 10;
 	int a3 = a % 10;
-	std::cout << "Ñóììà öèôð ÷èñëà:" << a1+a2+a3;
+	std::cout << "ÐŸÐ¾ÑÐ»ÐµÐ´Ð½ÑÑ Ñ†Ð¸Ñ„Ñ€Ð° Ñ‡Ð¸ÑÐ»Ð°:" << a3 << "Ð¡Ñ€ÐµÐ´Ð½ÑÑ Ñ†Ð¸Ñ„Ñ€Ð° Ñ‡Ð¸ÑÐ»Ð°:" << a2;
 }
 
-void integer12(int a) {
+void integer_task_11(int a) {
 	int a1 = a / 100;
 	int a2 = (a % 100) / 10;
 	int a3 = a % 10;
-	std::cout << "Ïåðåâåðíóòîå ÷èñëî:" << a1 + a2 * 10 + a3 * 100;
+	std::cout << "Ð¡ÑƒÐ¼Ð¼Ð° Ñ†Ð¸Ñ„Ñ€ Ñ‡Ð¸ÑÐ»Ð°:" << a1+a2+a3;
 }
 
-void integer13(int a) {
+void integer_task_12(int a) {
 	int a1 = a / 100;
 	int a2 = (a % 100) / 10;
 	int a3 = a % 10;
-	std::cout << "Èçìåíåííîå ÷èñëî:" << a2 * 100 + a3 * 10 + a1;
+	std::cout << "ÐŸÐµÑ€ÐµÐ²ÐµÑ€Ð½ÑƒÑ‚Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:" << a1 + a2 * 10 + a3 * 100;
 }
 
-void integer14(int a) {
+void integer_task_13(int a) {
 	int a1 = a / 100;
 	int a2 = (a % 100) / 10;
 	int a3 = a % 10;
-	std::cout << "Èçìåíåííîå ÷èñëî:" << a3 * 100 + a1 * 10 + a2;
+	std::cout << "Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:" << a2 * 100 + a3 * 10 + a1;
 }
 
-void integer15(int a) {
+void integer_task_14(int a) {
 	int a1 = a / 100;
 	int a2 = (a % 100) / 10;
 	int a3 = a % 10;
-	std::cout << "Èçìåíåííîå ÷èñëî:" << a2 * 100 + a1 * 10 + a3;
+	std::cout << "Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:" << a3 * 100 + a1 * 10 + a2;
 }
 
-void integer16(int a) {
+void integer_task_15(int a) {
 	int a1 = a / 100;
 	int a2 = (a % 100) / 10;
 	int a3 = a % 10;
-	std::cout << "Èçìåíåííîå ÷èñëî:" << a1 * 100 + a3 * 10 + a2;
+	std::cout << "Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:" << a2 * 100 + a1 * 10 + a3;
 }
 
-void integer17(int a) {
-	std::cout << "Ðàçðÿæ ñîòåí:" << (a/100)%10;
+void integer_task_16(int a) {
+	int a1 = a / 100;
+	int a2 = (a % 100) / 10;
+	int a3 = a % 10;
+	std::cout << "Ð˜Ð·Ð¼ÐµÐ½ÐµÐ½Ð½Ð¾Ðµ Ñ‡Ð¸ÑÐ»Ð¾:" << a1 * 100 + a3 * 10 + a2;
 }
 
-void integer18(int a) {
-	std::cout << "Ðàçðÿæ òûñÿ÷:" << (a / 1000) % 10;
+void integer_task_17(int a) {
+	std::cout << "Ð Ð°Ð·Ñ€ÑÐ¶ ÑÐ¾Ñ‚ÐµÐ½:" << (a/100)%10;
 }
 
-void integer19(int n) {
-	std::cout << "Ïîëíûõ ìèíóò:" << n / 60;
+void integer_task_18(int a) {
+	std::cout << "Ð Ð°Ð·Ñ€ÑÐ¶ Ñ‚Ñ‹ÑÑÑ‡:" << (a / 1000) % 10;
 }
 
-void integer20(int n) {
-	std::cout << "Ïîëíûõ ÷àñîâ:" << n / 3600;
+void integer_task_19(int n) {
+	std::cout << "ÐŸÐ¾Ð»Ð½Ñ‹Ñ… Ð¼Ð¸Ð½ÑƒÑ‚:" << n / 60;
 }
 
-void integer21(int n) {
-	std::cout << "Ñåêóíä ñ íà÷àëà ìèíóòû:" << n % 60;
+void integer_task_20(int n) {
+	std::cout << "ÐŸÐ¾Ð»Ð½Ñ‹Ñ… Ñ‡Ð°ÑÐ¾Ð²:" << n / 3600;
 }
 
-void integer22(int n) {
-	std::cout << "Ñåêóíä ñ íà÷àëà ÷àñà:" << n % 3600;
+void integer_task_21(int n) {
+	std::cout << "Ð¡ÐµÐºÑƒÐ½Ð´ Ñ Ð½Ð°Ñ‡Ð°Ð»Ð° Ð¼Ð¸Ð½ÑƒÑ‚Ñ‹:" << n % 60;
 }
 
-void integer23(int n) {
-	std::cout << "Ìèíóò ñ íà÷àëà ÷àñà:" << (n / 60) % 60;
+void integer_task_22(int n) {
+	std::cout << "Ð¡ÐµÐºÑƒÐ½Ð´ Ñ Ð½Ð°Ñ‡Ð°Ð»Ð° Ñ‡Ð°ÑÐ°:" << n % 3600;
 }
 
-void integer24(int k) {
-	std::cout << "Íîìåð íåäåëè:" << (k+1) % 7 ;
+void integer_task_23(int n) {
+	std::cout << "ÐœÐ¸Ð½ÑƒÑ‚ Ñ Ð½Ð°Ñ‡Ð°Ð»Ð° Ñ‡Ð°ÑÐ°:" << (n / 60) % 60;
 }
 
-void integer25(int k) {
-	std::cout << "Íîìåð íåäåëè:" << (k + 4) % 7;
+void integer_task_24(int k) {
+	std::cout << "ÐÐ¾Ð¼ÐµÑ€ Ð½ÐµÐ´ÐµÐ»Ð¸:" << (k+1) % 7 ;
 }
 
-void integer26(int k) {
-	std::cout << "Íîìåð íåäåëè:" << ((k + 2 - 1) % 7) + 1;
+void integer_task_25(int k) {
+	std::cout << "ÐÐ¾Ð¼ÐµÑ€ Ð½ÐµÐ´ÐµÐ»Ð¸:" << (k + 4) % 7;
 }
 
-void integer27(int k) {
-	std::cout << "Íîìåð íåäåëè:" << ((k + 6 - 1 ) % 7) + 1;
+void integer_task_26(int k) {
+	std::cout << "ÐÐ¾Ð¼ÐµÑ€ Ð½ÐµÐ´ÐµÐ»Ð¸:" << ((k + 2 - 1) % 7) + 1;
 }
 
-void integer28(int k, int n) {
-	std::cout << "Íîìåð íåäåëè:" << ((k + n - 1) % 7) + 1;
+void integer_task_27(int k) {
+	std::cout << "ÐÐ¾Ð¼ÐµÑ€ Ð½ÐµÐ´ÐµÐ»Ð¸:" << ((k + 6 - 1 ) % 7) + 1;
 }
 
-void integer29(int a, int b, int c) {
+void integer_task_28(int k, int n) {
+	std::cout << "ÐÐ¾Ð¼ÐµÑ€ Ð½ÐµÐ´ÐµÐ»Ð¸:" << ((k + n - 1) % 7) + 1;
+}
+
+void integer_task_29(int a, int b, int c) {
 	int p = a * b;
 	int ac = a / c;
 	int ab = b / c;
-	std::cout << "Êîëè÷åñòâî êâàäðàòîâ:" << ab*ac <<"Íåçàíÿòàÿ òåððèòîðèÿ:"<< p - (ab*ac*c*c);
+	std::cout << "ÐšÐ¾Ð»Ð¸Ñ‡ÐµÑÑ‚Ð²Ð¾ ÐºÐ²Ð°Ð´Ñ€Ð°Ñ‚Ð¾Ð²:" << ab*ac <<"ÐÐµÐ·Ð°Ð½ÑÑ‚Ð°Ñ Ñ‚ÐµÑ€Ñ€Ð¸Ñ‚Ð¾Ñ€Ð¸Ñ:"<< p - (ab*ac*c*c);
 }
 
-void integer30(int g) {
-	std::cout << "Ñòîëåòèå:" << (g - 1) / 100 + 1;
+void integer_task_30(int g) {
+	std::cout << "Ð¡Ñ‚Ð¾Ð»ÐµÑ‚Ð¸Ðµ:" << (g - 1) / 100 + 1;
 }
