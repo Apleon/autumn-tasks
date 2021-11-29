@@ -25,6 +25,9 @@
 /* Begin PBXFileReference section */
 		4F232F2B275574F200986BD2 /* abramyan_tasks */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = abramyan_tasks; sourceTree = BUILT_PRODUCTS_DIR; };
 		4F232F2E275574F200986BD2 /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		4F232F362755755A00986BD2 /* begin.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = begin.hpp; sourceTree = "<group>"; };
+		4F232F3C2755821700986BD2 /* integer.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = integer.h; sourceTree = "<group>"; };
+		4F232F3D2755830700986BD2 /* boolean.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = boolean.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +61,35 @@
 			isa = PBXGroup;
 			children = (
 				4F232F2E275574F200986BD2 /* main.cpp */,
+				4F232F40275583DB00986BD2 /* begin */,
+				4F232F3E275583B000986BD2 /* integer */,
+				4F232F3F275583CD00986BD2 /* boolean */,
 			);
 			path = abramyan_tasks;
+			sourceTree = "<group>";
+		};
+		4F232F3E275583B000986BD2 /* integer */ = {
+			isa = PBXGroup;
+			children = (
+				4F232F3C2755821700986BD2 /* integer.h */,
+			);
+			path = integer;
+			sourceTree = "<group>";
+		};
+		4F232F3F275583CD00986BD2 /* boolean */ = {
+			isa = PBXGroup;
+			children = (
+				4F232F3D2755830700986BD2 /* boolean.h */,
+			);
+			path = boolean;
+			sourceTree = "<group>";
+		};
+		4F232F40275583DB00986BD2 /* begin */ = {
+			isa = PBXGroup;
+			children = (
+				4F232F362755755A00986BD2 /* begin.hpp */,
+			);
+			path = begin;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
