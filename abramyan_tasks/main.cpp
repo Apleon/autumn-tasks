@@ -192,6 +192,16 @@ int main(){
     std::cout << digits_of_three_digit_number_form_increasing_sequence(124) << std::endl;
     std::cout <<"task92##################" << std::endl;
     std::cout << digits_of_three_digit_number_decreasing_sequence(567) << std::endl;
+    std::cout <<"task93##################" << std::endl;
+    std::cout << four_digit_palindrome_number(1111) << std::endl;
+    std::cout <<"task94##################" << std::endl;
+    std::cout << does_quadratic_equation_have_real_roots(1, -8, 15) << std::endl;
+    std::cout <<"task95##################" << std::endl;
+    std::cout << does_point_lies_in_second_coordinate_quarter(-2, 2) << std::endl;
+    
+    
+    
+    
     
     
 }

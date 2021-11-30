@@ -228,4 +228,64 @@ bool digits_of_three_digit_number_decreasing_sequence(int three_digit_num){
     return false;
 }
 //task93
+bool four_digit_palindrome_number(int four_digit_num){
+    if ((four_digit_num % 10 == four_digit_num / 1000)){
+        return true;
+    }
+    if ((four_digit_num % 100 / 10 == four_digit_num % 1000 / 100)){
+        return true;
+    }
+    return false;
+}
+//task94.1
+double discriminant_(int ratio_a, int ratio_b, int ratio_c){
+    return pow(ratio_b, 2) - 4 * ratio_a * ratio_c;
+}
+//task94
+bool does_quadratic_equation_have_real_roots(int ratio_a, int ratio_b, int ratio_c){
+    if (ratio_a == 0){
+        throw "ratio_a must be != 0";
+    }
+    if (discriminant(ratio_a, ratio_b, ratio_c) > 0){
+        return true;
+    }
+    return false;
+}
+//task95
+bool does_point_lies_in_second_coordinate_quarter(int coordinate_x, int coordinate_y){
+    if (coordinate_x < 0 && coordinate_y > 0){
+        return true;
+    }
+    return false;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 #endif /* boolean_h */
