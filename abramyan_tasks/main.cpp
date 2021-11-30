@@ -198,6 +198,21 @@ int main(){
     std::cout << does_quadratic_equation_have_real_roots(1, -8, 15) << std::endl;
     std::cout <<"task95##################" << std::endl;
     std::cout << does_point_lies_in_second_coordinate_quarter(-2, 2) << std::endl;
+    std::cout <<"task96##################" << std::endl;
+    std::cout << does_point_lies_in_fourth_coordinate_quarter(2, -2) << std::endl;
+    std::cout <<"task97##################" << std::endl;
+    std::cout << does_point_lies_in_second_or_third_quarter(-2, 2) << std::endl;
+    std::cout <<"task98##################" << std::endl;
+    std::cout << does_point_lies_in_first_or_third_quarter(-2, -2) << std::endl;
+    std::cout <<"task99##################" << std::endl;
+    std::cout << does_point_lies_in_rectangle_and_sides_are_parallel_coord_axes(2, 2, -3, 4, 5, -6) << std::endl;
+    std::cout <<"task100##################" << std::endl;
+    std::cout << does_triangle_equilateral(4, 4, 4) << std::endl;
+    
+    
+    
+    
+    
     
     
     

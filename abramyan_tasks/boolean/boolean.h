@@ -258,6 +258,53 @@ bool does_point_lies_in_second_coordinate_quarter(int coordinate_x, int coordina
     }
     return false;
 }
+//task96
+bool does_point_lies_in_fourth_coordinate_quarter(int coordinate_x, int coordinate_y){
+    if (coordinate_x > 0 && coordinate_y < 0){
+        return true;
+    }
+    return false;
+}
+//task97
+bool does_point_lies_in_second_or_third_quarter(int coordinate_x, int coordinate_y){
+    if (coordinate_x < 0 && coordinate_y > 0){
+        return true;
+    }
+    if (coordinate_x < 0 && coordinate_y < 0){
+        return true;
+    }
+    return false;
+}
+//task98
+bool does_point_lies_in_first_or_third_quarter(int coordinate_x, int coordinate_y){
+    if (coordinate_x > 0 && coordinate_y > 0){
+        return true;
+    }
+    if (coordinate_x < 0 && coordinate_y < 0){
+        return true;
+    }
+    return false;
+}
+//task99
+bool does_point_lies_in_rectangle_and_sides_are_parallel_coord_axes(int coordinate_x, int coordinate_y, int coordinate_x_1, int coordinate_y_1, int coordinate_x_2, int coordinate_y_2){
+    if (coordinate_x_1 < coordinate_x &&
+        coordinate_x < coordinate_x_2 &&
+        coordinate_y_2 < coordinate_y &&
+        coordinate_y < coordinate_y_1){
+        return true;
+    }
+    return false;
+}
+//task100
+bool does_triangle_equilateral(int integer_a, int integer_b, int integer_c){
+    if ((integer_a == integer_b) &&
+        (integer_a == integer_c) &&
+        (integer_b == integer_c)){
+        return true;
+    }
+    return false;
+}
+
 
 
 
