@@ -304,6 +304,33 @@ bool does_triangle_equilateral(int integer_a, int integer_b, int integer_c){
     }
     return false;
 }
+//task101
+bool does_triangle_isosceles(int integer_a, int integer_b, int integer_c){
+    if (integer_a == integer_b){
+        return true;
+    }
+    if (integer_a == integer_c){
+        return true;
+    }
+    if (integer_b == integer_c){
+        return true;
+    }
+    return false;
+}
+//task102
+bool does_triangle_rectangular(int integer_a, int integer_b, int integer_c){
+    if (integer_a * integer_a == (integer_b * integer_b) + (integer_c * integer_c)){
+        return true;
+    }
+    if(integer_b * integer_b == (integer_a * integer_a) + (integer_c * integer_c)){
+        return true;
+    }
+    if (integer_c * integer_c == (integer_a * integer_a) + (integer_b * integer_b)){
+        return true;
+    }
+    return false;
+}
+
 
 
 

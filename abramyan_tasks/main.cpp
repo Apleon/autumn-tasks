@@ -208,6 +208,12 @@ int main(){
     std::cout << does_point_lies_in_rectangle_and_sides_are_parallel_coord_axes(2, 2, -3, 4, 5, -6) << std::endl;
     std::cout <<"task100##################" << std::endl;
     std::cout << does_triangle_equilateral(4, 4, 4) << std::endl;
+    std::cout <<"task101##################" << std::endl;
+    std::cout << does_triangle_isosceles(4, 4, 2) << std::endl;
+    std::cout <<"task102##################" << std::endl;
+    std::cout << does_triangle_rectangular(5, 5, 0) << std::endl;
+    
+    
     
     
     
