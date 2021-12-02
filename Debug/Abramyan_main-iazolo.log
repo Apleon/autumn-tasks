@@ -1,0 +1,16 @@
+﻿  Source.cpp
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\(4) If\If.h(258,8): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\(5) Case\Case.h(489,6): error C2084: функция "void case10(void)" уже имеет текст реализации
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\(5) Case\Case.h(422): message : см. предыдущее определение "case10"
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\(5) Case\Case.h(503,2): error C2059: синтаксическая ошибка: }
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\Source.cpp(517,4): error C2065: case10: необъявленный идентификатор
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\Source.cpp(520,4): error C3861: case11: идентификатор не найден
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\Source.cpp(523,4): error C3861: case12: идентификатор не найден
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\Source.cpp(526,4): error C3861: case13: идентификатор не найден
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\Source.cpp(529,4): error C3861: case14: идентификатор не найден
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\Source.cpp(532,4): error C3861: case15: идентификатор не найден
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\Source.cpp(535,4): error C3861: case16: идентификатор не найден
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\Source.cpp(538,4): error C3861: case17: идентификатор не найден
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\Source.cpp(541,4): error C3861: case18: идентификатор не найден
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\Source.cpp(544,4): error C3861: case19: идентификатор не найден
+C:\Users\w6203\source\repos\Abramyan_main-iazolo\Abramyan_main-iazolo\Source.cpp(547,4): error C3861: case20: идентификатор не найден
