@@ -1,33 +1,67 @@
+#define _USE_MATH_DEFINES
 #include <iostream>
 #include <cmath>
 using namespace std;
 
 void mission_1(){
     setlocale(LC_ALL,"");
-    double a;
+    double a, P;
     cout << "Введите значения a:";
     cin >> a;
-    double P;
     P = 4 * a;
     cout << "Периметр квадрата равен: " << P << '\n';
 }
 void mission_2(){
     setlocale(LC_ALL,"");
+    double a, S;
+    cout << "Введите значения a:";
+    cin >> a;
+    S = pow(a,2);
+    cout << "Площадь квадрата равна: " << S << '\n';
 }
 void mission_3(){
-    setlocale(LC_ALL,"");   
+    setlocale(LC_ALL,"");
+    double a, b, S, P;
+    cout << "Введите значения a:";
+    cin >> a;
+    cout << "Введите значения b:";
+    cin >> b;
+    S = a * b;
+    P = 2 * (a + b);
+    cout << "Площадь прямоугольника: " << S << '\n' << "Периметр прямоугольника: " << P << endl;    
 } 
 void mission_4(){
     setlocale(LC_ALL,"");
+    double d, L;
+    cout << "Введите значения d:";
+    cin >> d;
+    L = M_PI * d;
+    cout << "Длина окружности: " << L << endl;
 } 
 void mission_5(){
     setlocale(LC_ALL,"");
+    double a, V, S;
+    cout << "Введите значения a:";
+    cin >> a;
+    V = pow(a, 3);
+    S = 6 * pow(a, 2);
+    cout << "Объём куба: " << V << "Площадь поверхности куба: " << S << endl;
 } 
 void mission_6(){
     setlocale(LC_ALL,"");
+    double a, b, c, V, S;
+    V = a * b * c;
+    S = 2 * (a * b + b * c + a * c);
+    cout << "Объём прямоугольного параллелепипеда: " << V << "Площадь поверхности прямоугольного параллелепипеда: " << S << endl;
 } 
 void mission_7(){
     setlocale(LC_ALL,"");
+    double R, L, S;
+    cout << "Введите значения R:";
+    cin >> R;
+    L = 2 * M_PI * R;
+    S = M_PI * pow(R, 2);
+    cout << "Длина окружности круга: " << L << "Площадь круга:" << S << endl;
 } 
 void mission_8(){
     setlocale(LC_ALL,"");
