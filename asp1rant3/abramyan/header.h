@@ -141,24 +141,57 @@ void mission_13(){
 } 
 void mission_14(){
     setlocale(LC_ALL,"");
+    double L, R, S;
+    cin >> L;
+    R = 2 * M_PI * L;
+    S = M_PI * pow(R, 2);
+    cout << R << " " << S << endl;
 } 
 void mission_15(){
     setlocale(LC_ALL,"");
+    double S, D, L;
+    cin >> S;
+    D = sqrt(S / 3.14 * 4);
+    L = D * M_PI;
+    cout << D << " " << L << endl;
 } 
 void mission_16(){
     setlocale(LC_ALL,"");
+    double x1, x2, size;
+    size = abs(x1 - x2);
+    cout << size << endl;
+
 } 
 void mission_17(){
     setlocale(LC_ALL,"");
+    double A, B, C;
+    cin >> A >> B >> C;
+    cout << C - A << " " << C - B << endl;
+    cout << (C - A) + (C - B) << endl;
 } 
 void mission_18(){
     setlocale(LC_ALL,"");
+    double A, B, C, AC, BC, proizv;
+    cin >> A >> B >> C;
+    AC = A - C;
+    BC = C - B;
+    proizv = AC * BC;
+    cout << proizv << endl;
 } 
 void mission_19(){
     setlocale(LC_ALL,"");
+    double x1, x2, y1, y2, P, S;
+    cin >> x1 >> x2 >> y1 >> y2;
+    S = abs(x1 - x2) + abs(y1 - y2);
+    P = 2 * abs(x1 - x2) + abs(y1 - y2);
+    cout << S << " " << P << endl;
 } 
 void mission_20(){
     setlocale(LC_ALL,"");
+    double x1, x2, y1, y2, distance;
+    cin >> x1 >> x2 >> y1 >> y2;
+    distance = sqrt(pow(x2 - x1, 2) + pow(y2 - y1, 2));
+    cout << distance << endl;
 } 
 void mission_21(){
     setlocale(LC_ALL,"");
