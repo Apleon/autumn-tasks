@@ -65,21 +65,79 @@ void mission_7(){
 } 
 void mission_8(){
     setlocale(LC_ALL,"");
+    double a, b, srArifm;
+    cin >> a >> b;
+    srArifm = (a + b) / 2;
+    cout << srArifm << endl;
 } 
 void mission_9(){
     setlocale(LC_ALL,"");
+    double a, b, srGeometr;
+    do{
+        cin >> a;
+    }while(a < 0);
+    do{
+        cin >> b;
+    }while(b < 0);
+    srGeometr = sqrt(a * b);
+    cout << srGeometr << endl;
 } 
 void mission_10(){
     setlocale(LC_ALL,"");
+    double a, b, sum, raznost, proizv, chastnoekvadratov;
+    do{
+        cin >> a;
+    }while(a == 0);
+    do{
+        cin >> b;
+    }while(b == 0);
+    sum = a + b;
+    raznost = a - b;
+    proizv = a * b;
+    chastnoekvadratov = pow(a, 2) / pow(b, 2);
+    cout << sum << endl;
+    cout << raznost << endl;
+    cout << proizv << endl;
+    cout << chastnoekvadratov << endl;
 } 
 void mission_11(){
     setlocale(LC_ALL,"");
+    double a, b, sum, raznost, proizv, chastnoemodule;
+    do{
+        cin >> a;
+    }while(a == 0);
+    do{
+        cin >> b;
+    }while(b == 0);
+    sum = a + b;
+    raznost = a - b;
+    proizv = a * b;
+    chastnoemodule = abs(a) / abs(b);
+    cout << sum << endl;
+    cout << raznost << endl;
+    cout << proizv << endl;
+    cout << chastnoemodule << endl;
 } 
 void mission_12(){
     setlocale(LC_ALL,"");
+    double a, b,c, P;
+    cin >> a >> b;
+    c = sqrt(pow(a, 2) + pow(b, 2));
+    P = a + b + c;
+    cout << c << endl;
+    cout << P << endl;
 } 
 void mission_13(){
     setlocale(LC_ALL,"");
+    double R1, R2, S1, S2, S3;
+    cin >> R1;
+    do{
+        cin >> R2;
+    }while(R1 < R2);
+    S1 = M_PI * pow(R1, 2);
+    S2 = M_PI * pow(R2, 2);
+    S3 = S1 - S2;
+    cout << S1 << " " << S2 << " " << S3 << endl;
 } 
 void mission_14(){
     setlocale(LC_ALL,"");
