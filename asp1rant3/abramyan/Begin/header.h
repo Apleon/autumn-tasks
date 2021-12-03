@@ -195,63 +195,155 @@ void mission_20(){
 } 
 void mission_21(){
     setlocale(LC_ALL,"");
+    double x1, x2, y1, y2, x3, y3, p, P, S, A, B, C;
+    cin >> x1 >> x2 >> y1 >> y2 >> x3 >> y3;
+    a = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) + (y2 - y1));
+	b = sqrt((x3 - x1) * (x3 - x1) + (y3 - y1) + (y3 - y1));
+	p = sqrt((x2 - x3) * (x2 - x3) + (y2 - y3) + (y2 - y3));
+	p = (a + b + c) / 2;
+    S = sqrt(p* (p - a) * (p - b) * (p - c));
+    cout << S << endl;  
 } 
 void mission_22(){
     setlocale(LC_ALL,"");
+    double A, B, free;
+    free = A;
+    A = B;
+    B = free;
+    cout << A << " " << B << endl;
 } 
 void mission_23(){
     setlocale(LC_ALL,"");
+    double A, B, C, free;
+    free = A;
+    A = C;
+    C = B;
+    B = free;
+    cout << A << " " << B << " " << C << endl;
 } 
 void mission_24(){
     setlocale(LC_ALL,"");
+    double A, B, C, free;
+    free = A;
+    A = B;
+    B = C;
+    C = free;
+    cout << A << " " << B << " " << C << endl;
 } 
 void mission_25(){
     setlocale(LC_ALL,"");
+    double x, y;
+    cin >> x;
+    y = 3 * pow(x, 6) - 6 * pow(x, 2) - 7;
+    cout << y << endl;
 } 
 void mission_26(){
     setlocale(LC_ALL,"");
+    double x, y;
+    cin >> x;
+    y = 4 * pow((x - 3), 6) - 7 * pow((x-3), 3) + 2;
+    cout << y << endl;
 }
 void mission_27(){
     setlocale(LC_ALL,"");
+    double A, A2, A4, A8;
+    cin >> A;
+    A2 = A * A;
+    A4 = A2 * A2;
+    A8 = A4 * A4;
+    cout << A2 << " " << A4 << " " << A8 <<endl;
 } 
 void mission_28(){
     setlocale(LC_ALL,"");
+    double A, A2, A3, A5, A10, A15;
+    cin >> A;
+    A2 = A * A;
+	A3 = A2 * A;
+	A5 = A3 * A2;
+	A10 = A5 * A5;
+	A15 = A10 * A5;
+    cout << A2 << " " << A3 << " " << A5 << " " << A10 << " " << A15 << endl;
 } 
 void mission_29(){
     setlocale(LC_ALL,"");
+    double a, rad;
+    cin >> a;
+    rad = M_PI * a / 180;
+    cout << rad << endl;
 } 
 void mission_30(){
     setlocale(LC_ALL,"");
+    double a, grad;
+    cin >> a;
+    grad = 180 * a / M_PI;
+
 } 
 void mission_31(){
     setlocale(LC_ALL,"");
+    double Tf, Tc;
+    cin >> Tf;
+    Tc = (Tf - 32) * 5 / 9;
+    cout << Tc << endl;
 } 
 void mission_32(){
     setlocale(LC_ALL,"");
+    double Tf, Tc;
+    cin >> Tc;
+    Tf = (Tc + 32) * 9 / 5;
+    cout  << Tf << endl;
 } 
 void mission_33(){
     setlocale(LC_ALL,"");
+    double X, A, Y;
+    cout << "Один килограмм:" << A / X << "Y килограмм конфет: " << Y * (A / X) << endl;
 }
 void mission_34(){
     setlocale(LC_ALL,"");
+    double X, A, Y, B;
+    cout << "Один килограмм шоколадных конфет:" << A / X << "Один килограмм ирисок:" << B / Y << "Разница:" << (A / X) - (B / Y) << endl;
 }
 void mission_35(){
     setlocale(LC_ALL,"");
+    double V, U, T1, T2;
+    cin >> V >> U >> T1 >> T2;
+    cout << "Путь:" << (T1 * V) + (T2 * U) << endl;
 } 
 void mission_36(){
     setlocale(LC_ALL,"");
+    double V1, V2, T, S;
+    cin >> V1 >> V2 >> T >> S;
+    cout << "Расстояние между ними: " << S + V1 * T + V2 * T << endl;
 } 
 void mission_37(){
     setlocale(LC_ALL,"");
+    double V1, V2, T, S, distance;
+    cin >> V1 >> V2 >> T >> distance;
+    distance = S - (V1 * T + V2 * T);
+    cout << distance << endl;
 } 
 void mission_38(){
     setlocale(LC_ALL,"");
+    double X, A, B;
+    X = (-1) * B / A;
+    cout << X << endl;
 } 
 void mission_39(){
     setlocale(LC_ALL,"");
+    double X1, X2, A, B, C, D;
+    cin >> A >> B >> C;
+    D = sqrt(B) - 4 * A * C;
+    X1 = (-1) * B + sqrt(D) / 2 * A;
+    X2 = (-1) * B - sqrt(D) / 2 * A;
+    cout << X1 << " " << X2 << endl;
 } 
 void mission_40(){
     setlocale(LC_ALL,"");
+    double X, Y, A1, B1, C1, A2, B2, C2, D;
+    cin >> A1 >> B1 >> C1 >> A2 >> B2 >> C2;
+    D = A1 * B2 - A2 * B1;
+    X = (C1 * B2 - C2 * B1) / D;
+    Y = (A1 * C2 - A2 * C1) / D;
+    cout << X << " " << Y << endl;
 } 
 
  
