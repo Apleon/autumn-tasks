@@ -4,5 +4,5 @@
 using namespace std;
 
 int main(){
-    mission_35();
+    mission_1();
 }

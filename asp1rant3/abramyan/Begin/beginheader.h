@@ -197,11 +197,11 @@ void mission_21(){
     setlocale(LC_ALL,"");
     double x1, x2, y1, y2, x3, y3, p, P, S, A, B, C;
     cin >> x1 >> x2 >> y1 >> y2 >> x3 >> y3;
-    a = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) + (y2 - y1));
-	b = sqrt((x3 - x1) * (x3 - x1) + (y3 - y1) + (y3 - y1));
+    A = sqrt((x2 - x1) * (x2 - x1) + (y2 - y1) + (y2 - y1));
+	B = sqrt((x3 - x1) * (x3 - x1) + (y3 - y1) + (y3 - y1));
 	p = sqrt((x2 - x3) * (x2 - x3) + (y2 - y3) + (y2 - y3));
-	p = (a + b + c) / 2;
-    S = sqrt(p* (p - a) * (p - b) * (p - c));
+	p = (A + B + C) / 2;
+    S = sqrt(p* (p - A) * (p - B) * (p - C));
     cout << S << endl;  
 } 
 void mission_22(){
@@ -344,6 +344,4 @@ void mission_40(){
     X = (C1 * B2 - C2 * B1) / D;
     Y = (A1 * C2 - A2 * C1) / D;
     cout << X << " " << Y << endl;
-} 
-
- 
+}
