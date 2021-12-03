@@ -330,6 +330,30 @@ bool does_triangle_rectangular(int integer_a, int integer_b, int integer_c){
     }
     return false;
 }
+//task103
+bool does_there_triange(int integer_a, int integer_b, int integer_c){
+    if((integer_a + integer_b > integer_c) &&
+       (integer_a + integer_c > integer_b) &&
+       (integer_b + integer_c > integer_a)){
+        return true;
+    }
+    return false;
+}
+//task104
+bool does_field_white(int coordinate_x, int coordinate_y){
+    if((coordinate_x + coordinate_y) % 2 != 0){
+        return true;
+    }
+    return false;
+}
+//task105
+bool fields_have_same_color(int coordinate_x_1, int coordinate_y_1, int coordinate_x_2, int coordinate_y_2){
+    if((coordinate_x_1 + coordinate_y_1) % 2 ==
+       (coordinate_x_2 + coordinate_y_2) % 2){
+        return true;
+    }
+    return false;
+}
 
 
 

@@ -212,6 +212,16 @@ int main(){
     std::cout << does_triangle_isosceles(4, 4, 2) << std::endl;
     std::cout <<"task102##################" << std::endl;
     std::cout << does_triangle_rectangular(5, 5, 0) << std::endl;
+    std::cout <<"task103##################" << std::endl;
+    std::cout << does_there_triange(2, 4, 3) << std::endl;
+    std::cout <<"task104##################" << std::endl;
+    std::cout << does_field_white(1, 4) << std::endl;
+    std::cout <<"task105##################" << std::endl;
+    std::cout << fields_have_same_color(1, 4, 2, 5) << std::endl;
+    
+    
+    
+    
     
     
     
