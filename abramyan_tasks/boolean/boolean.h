@@ -354,6 +354,59 @@ bool fields_have_same_color(int coordinate_x_1, int coordinate_y_1, int coordina
     }
     return false;
 }
+//task106
+bool does_rook_able_to_move_from_one_field_to_another_in_one_move(int coordinate_x_1, int coordinate_y_1, int coordinate_x_2, int coordinate_y_2){
+    if(coordinate_x_1 == coordinate_x_2){
+        return true;
+    }
+    if(coordinate_y_1 == coordinate_y_2){
+        return true;
+    }
+    return false;
+}
+//task107
+bool does_king_able_to_move_from_one_field_to_another_in_one_move(int coordinate_x_1, int coordinate_y_1, int coordinate_x_2, int coordinate_y_2){
+    if(abs(coordinate_x_1 - coordinate_x_2) <= 1 &&
+       abs(coordinate_y_1 - coordinate_y_2) <= 1){
+        return true;
+    }
+    return false;
+    
+}
+//task108
+bool does_elephant_able_to_move_from_one_field_to_another_in_one_move(int coordinate_x_1, int coordinate_y_1, int coordinate_x_2, int coordinate_y_2){
+    if(abs(coordinate_x_1 - coordinate_x_2) ==
+       abs(coordinate_y_1 - coordinate_y_2)){
+        return true;
+    }
+    return false;
+}
+//taks109
+bool does_queen_able_to_move_from_one_field_to_another_in_one_move(int coordinate_x_1, int coordinate_y_1, int coordinate_x_2, int coordinate_y_2){
+    if(coordinate_x_1 == coordinate_x_2){
+        return true;
+    }
+    if(coordinate_y_1 == coordinate_y_2){
+        return true;
+    }
+    if(coordinate_x_1 - coordinate_y_1 == coordinate_x_2 - coordinate_y_2){
+        return true;
+    }
+    if(coordinate_x_1 + coordinate_y_2 == coordinate_x_2 + coordinate_y_2){
+        return true;
+    }
+    return false;
+}
+//task110
+bool does_hourse_able_to_move_from_one_field_to_another_in_one_move(int coordinate_x_1, int coordinate_y_1, int coordinate_x_2, int coordinate_y_2){
+    if(abs(coordinate_x_1 - coordinate_x_2) == 1 && abs(coordinate_y_1 - coordinate_y_2) == 2){
+        return true;
+    }
+    if(abs(coordinate_x_1 - coordinate_x_2) == 2 && abs(coordinate_y_1 - coordinate_y_2) == 1){
+        return true;
+    }
+    return false;
+}
 
 
 

@@ -340,50 +340,6 @@ int square_of_tringle(int coordinate_x1, int coordinate_y1, int coordinate_x2, i
 void perimeter_and_square_of_triangle(int coordinate_x1, int coordinate_y1, int coordinate_x2, int coordinate_y2, int coordinate_x3, int coordinate_y3, int side_a, int side_b, int side_c){
     std::cout << perimeter_of_triangle(coordinate_x1, coordinate_y1, coordinate_x2, coordinate_y2, coordinate_x3, coordinate_y3, side_a, side_b, side_c) << std::endl << square_of_tringle(coordinate_x1, coordinate_y1, coordinate_x2, coordinate_y2, coordinate_x3, coordinate_y3, side_a, side_b, side_c) << std::endl;
 }
-
-//task 22
-//add points
-//class Veriables{
-//    public:
-//    int veriable_a;
-//    int veriable_b;
-//    Veriables (int _ver_a = 0, int _ver_b = 0) {
-//          veriable_a = _ver_a;
-//          veriable_b = _ver_b;
-//    }
-//    void change_a(int veriable_a, int veriable_b){
-//        veriable_a = (veriable_a + veriable_b);
-//        veriable_b = (veriable_a - veriable_b);
-//        veriable_a = (veriable_a - veriable_b);
-//    }
-//};
-//class User{
-//private:
-//    int age;
-//    std::string name;
-//    int id;
-//public:
-//    User (){
-//        age = 25;
-//        name = "Andrew";
-//        id = 1;
-//    }
-//    User (int age_u, std::string name_u, int id_u){
-//        age = age_u;
-//        name = name_u;
-//        id = id_u;
-//    }
-//    void enter_data_about_user(){
-//        std::cin >> age;
-//        std::cin >> name;
-//        std::cin >> id;
-//    }
-//    void show_information_about_user(){
-//        std::cout << name << "," << name << "," << id << std::endl;
-//    }
-//    
-//};
-
 // task22
 void change_content_in_veriables_1(double veriable_a, double veriable_b){//add links
     veriable_a = (veriable_a + veriable_b);
@@ -550,18 +506,6 @@ int distance_between_cars(int speed_car_1, int speed_car_2, int distance, int ti
 int distance_between_cars_2(int speed_car_1, int speed_car_2, int distance, int time){
     return abs(distance - (speed_car_1 * time + speed_car_2 * time));
 }
-
-//task 38
-//double equation(int ratio_a, int ratio_b)
-//    try{
-//        if (ratio_a == 0){
-//            throw "You pass wrong values";
-//        }
-//    }
-//    catch (...) {
-//        return -ratio_b / ratio_a;
-//    }
-
 int equation(int ratio_a, int ratio_b){
     if (ratio_a == 0){
         throw "You pass wrong values";
@@ -594,45 +538,6 @@ void roots_of_quadratic_equation(int ratio_a, int ratio_b, int ratio_c){
            throw "The discriminant is less than 0, the roots are insubstantial.";
        }
 }
-//class for_task40{
-//private:
-//    double ratio_a_1;
-//    double ratio_b_1;
-//    double ratio_c_1;
-//    double ratio_a_2;
-//    double ratio_b_2;
-//    double ratio_c_2;
-//
-//    for_task40(){
-//        ratio_a_1 = 2;
-//        ratio_b_1 = 3;
-//        ratio_c_1 = 4;
-//        ratio_a_2 = 5;
-//        ratio_b_2 = 6;
-//        ratio_c_2 = 7;
-//    }
-//    for_task40 ( double ratio_a_1, double ratio_b_1, double ratio_c_1, double ratio_a_2, double ratio_b_2, double ratio_c_2){
-//        this; ratio_a_1 = ratio_a_1;
-//        this; ratio_b_1 = ratio_b_1;
-//        this; ratio_c_1 = ratio_c_1;
-//        this; ratio_a_2 = ratio_a_2;
-//        this; ratio_b_2 = ratio_b_2;
-//        this; ratio_c_2 = ratio_c_2;
-//    }
-//    double ratio_d(){
-//        return ratio_a_1 * ratio_b_2 - ratio_a_2 * ratio_b_1;
-//    }
-//    double coordinate_x(){
-//        double temp_1 = (ratio_c_1 * ratio_b_2 - ratio_c_2 * ratio_b_1);
-//        double temp_2 = ratio_d(ratio_a_1, ratio_b_1, ratio_c_1, ratio_a_2, ratio_b_2, ratio_c_2);
-//        return temp_1 / temp_2;
-//    }
-//    double coordinate_y(){
-//        return (ratio_a_1 * ratio_c_2 - ratio_a_2 * ratio_c_1) /
-//            ratio_d(ratio_a_1, ratio_b_1, ratio_c_1, ratio_a_2, ratio_b_2, ratio_c_2);
-//    }
-//
-//};
 //task40.1
 double ratio_d(double ratio_a_1, double ratio_b_1, double ratio_c_1, double ratio_a_2, double ratio_b_2, double ratio_c_2){
     return ratio_a_1 * ratio_b_2 - ratio_a_2 * ratio_b_1;
