@@ -200,31 +200,61 @@ void mission_30(){
 }
 void mission_31(){
     setlocale(LC_ALL, "");
+    int A, B, C;
+    cin >> A >> B >> C;
+    cout << (A == B || A == C || C == B) << endl;
 }
 void mission_32(){
     setlocale(LC_ALL, "");
+    int A, B, C;
+    cin >> A >> B >> C;
+    cout << ((pow(A, 2) == pow(B, 2) + pow(C, 2)) || (pow(B, 2) == pow(A, 2) + pow(C, 2)) || (pow(C, 2) == pow(A, 2) + pow(B, 2))) << endl;
 }
 void mission_33(){
     setlocale(LC_ALL, "");
+    int A, B, C;
+    cin >> A >> B >> C;
+    cout << ((A + B) > C && (A + C) > B && (B + C) > A) << endl;
 }
 void mission_34(){
     setlocale(LC_ALL, "");
+    int X, Y;
+    cin >> X >> Y;
+    cout << ((X + Y) % 2 != 0) << endl;
 }
 void mission_35(){
     setlocale(LC_ALL, "");
+    int X1, Y1, X2, Y2;
+    cin >> X1 >> Y1 >> X2 >> Y2;
+    cout << ((X1 + Y1) % 2 == (X2 + Y2) % 2) << '\n';
 }
 void mission_36(){
     setlocale(LC_ALL, "");
+    int X1, Y1, X2, Y2;
+    cin >> X1 >> Y1 >> X2 >> Y2;
+    cout << (X1 == X2 || Y1 == Y2) << endl;
 }
 void mission_37(){
     setlocale(LC_ALL, "");
+    int X1, Y1, X2, Y2;
+    cin >> X1 >> Y1 >> X2 >> Y2;
+    cout << (((X1 - X2) < 2) && ((Y1 - Y2) < 2)) << endl;
 }
 void mission_38(){
     setlocale(LC_ALL, "");
+    int X1, Y1, X2, Y2;
+    cin >> X1 >> Y1 >> X2 >> Y2;
+    cout << ((X1 - X2) == (Y1 - Y2) && (X1 / Y1 / X2 / Y2) != (Y2 / X1 / Y2 / X1) && (X1 <= 8) && (X2 < 9) && (Y1 < 9) && (Y2 < 9)) << endl;
 }
 void mission_39(){
     setlocale(LC_ALL, "");
+    int X1, Y1, X2, Y2;
+    cin >> X1 >> Y1 >> X2 >> Y2;
+    cout << ((X1 - X2) == (Y1 - Y2) || (X1 == X2) || (Y1 == Y2)) << endl;
 }
 void mission_40(){
     setlocale(LC_ALL, "");
+    int X1, Y1, X2, Y2;
+    cin >> X1 >> Y1 >> X2 >> Y2;
+    cout << (((X1 - X2) == 1) && ((Y1 - Y2) == 2) || ((X1 - X2) == 2) && ((Y1 - Y2) == 1)) << endl;
 }
