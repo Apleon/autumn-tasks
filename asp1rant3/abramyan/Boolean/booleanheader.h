@@ -5,6 +5,14 @@ using namespace std;
 
 void mission_1(){
     setlocale(LC_ALL, "");
+    int A;
+    cin >> A;
+    if(A > -1){
+        cout << "Positive" << '\n';
+    }
+    else{
+        cout << "Negative" << '\n';
+    }
 }
 void mission_2(){
     setlocale(LC_ALL, "");
