@@ -2,6 +2,7 @@
 #include "begin.hpp"
 #include "integer.h"
 #include "boolean.h"
+#include "if.h"
 #include <cmath>
 #include "math.h"
 
@@ -228,6 +229,17 @@ int main(){
     std::cout << does_queen_able_to_move_from_one_field_to_another_in_one_move(2, 4, 2, 5) << std::endl;
     std::cout <<"task110##################" << std::endl;
     std::cout << does_hourse_able_to_move_from_one_field_to_another_in_one_move(2, 3, 1, 5) << std::endl;
+    std::cout <<"task111##################" << std::endl;
+    std::cout << if_the_num_is_positive_add_1_to_num(1) << std::endl;
+    std::cout <<"task112##################" << std::endl;
+    std::cout << if_the_num_is_positive_add_1_to_num_else_subtract_2(-1) << std::endl;
+    std::cout <<"task113##################" << std::endl;
+    std::cout << if_num_is_positive_add_1_to_num_else_subtract_2_if_num_equal_0_change_on_10(0) << std::endl;
+//    std::cout <<"task114##################" << std::endl;
+//    std::cout << find_number_of_positive_numbers(1, 2, 3) << std::endl;
+    
+    
+    
     
     
     
