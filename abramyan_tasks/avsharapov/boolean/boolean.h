@@ -406,7 +406,7 @@ bool does_hourse_able_to_move_from_one_field_to_another_in_one_move(int coordina
         return true;
     }
     return false;
-}
+
 
 
 
